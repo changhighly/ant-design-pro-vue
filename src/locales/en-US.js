@@ -1,16 +1,17 @@
-import analysis from './en-US/analysis';
-import exception from './en-US/exception';
-import form from './en-US/form';
-import globalHeader from './en-US/globalHeader';
-import login from './en-US/login';
-import menu from './en-US/menu';
-import monitor from './en-US/monitor';
-import result from './en-US/result';
-import settingDrawer from './en-US/settingDrawer';
-import settings from './en-US/settings';
-import pwa from './en-US/pwa';
-import component from './en-US/component';
-import editor from './en-US/editor';
+import analysis from './en-US/analysis'
+import Workplace from './en-US/Workplace'
+import exception from './en-US/exception'
+import form from './en-US/form'
+import globalHeader from './en-US/globalHeader'
+import login from './en-US/login'
+import menu from './en-US/menu'
+import monitor from './en-US/monitor'
+import result from './en-US/result'
+import settingDrawer from './en-US/settingDrawer'
+import settings from './en-US/settings'
+import pwa from './en-US/pwa'
+import component from './en-US/component'
+import editor from './en-US/editor'
 
 export const lang = {
   'navBar.lang': 'Languages',
@@ -22,6 +23,7 @@ export const lang = {
   'app.forms.basic.description':
     'Form pages are used to collect or verify information to users, and basic forms are common in scenarios where there are fewer data items.',
   ...analysis,
+  ...Workplace,
   ...exception,
   ...form,
   ...globalHeader,
@@ -33,5 +35,5 @@ export const lang = {
   ...settings,
   ...pwa,
   ...component,
-  ...editor,
-};
+  ...editor
+}
